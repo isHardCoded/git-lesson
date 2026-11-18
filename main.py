@@ -6,5 +6,5 @@ class Person:
   def __str__(self):
     return f"{self.name} - {self.age}!"
    
-person = Person("John", 20)
+person = Person("John", 25)
 print(person)
