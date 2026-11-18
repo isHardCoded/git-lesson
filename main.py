@@ -4,7 +4,7 @@ class Person:
     self.age = age
 
   def __str__(self):
-    return f"{self.name} - {self.age}"
+    return f"{self.name} - {self.age}!"
    
 person = Person("John", 20)
 print(person)
