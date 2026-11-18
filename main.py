@@ -1,7 +1,10 @@
 class Person:
-  def __init_(self, name, age):
+  def __init__(self, name, age):
     self.name = name
     self.age = age
+
+  def __str__(self):
+    return f"{self.name} - {self.age}!"
    
-person = Person()
+person = Person("John", 20)
 print(person)
